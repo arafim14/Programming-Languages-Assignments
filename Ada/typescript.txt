@@ -1,0 +1,10 @@
+Script started on Mon 24 Oct 2016 08:01:06 PM EDT
+]0;crinitem0@elvix2:Ada[crinitem0@elvix2 Ada]$ .'[K/adaassignment < input1
+A
+F
+G
+]0;crinitem0@elvix2:Ada[crinitem0@elvix2 Ada]$ ./adaassignment < input1[K2
+B
+]0;crinitem0@elvix2:Ada[crinitem0@elvix2 Ada]$ ^Dexit
+
+Script done on Mon 24 Oct 2016 08:01:21 PM EDT

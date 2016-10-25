@@ -1,0 +1,7 @@
+(define (voter)
+	'(		-1 -1 -1 -1 -1  1  1  1  1  1))
+
+(define (candidates)
+	'((Wilson	-1 -1 -1 -1 -1 -1 -1 -1 -1 -1)
+	  (Taylor	-1 -1 -1  1  1  1  1  1  1  1)
+	  (Monroe	-1 -1 -1  1  1 -1 -1  1  1  1)))

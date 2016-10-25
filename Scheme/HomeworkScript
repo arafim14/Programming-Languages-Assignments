@@ -1,0 +1,44 @@
+Script started on Tue 27 Sep 2016 11:00:59 AM EDT
+]0;crinitem0@elvix2:~/Programming[crinitem0@elvix2 ~/Programming]$ scheme48
+Welcome to Scheme 48 1.9.2 (made by root on 2016-08-30)
+See http://s48.org/ for more information.
+Please report bugs to scheme-48-bugs@s48.org.
+Get more information at http://www.s48.org/.
+Type ,? (comma question-mark) for help.
+> ,load SchemeAssignment
+> ,load Example2
+> (return_VoteL)
+(0 0 0 1 1 1 -1 -1 -1 1)
+> (return) _allCands)
+((adams 1 1 1 1 1 1 1 1 1 1) (grant -1 -1 -1 -1 -1 -1 -1 -1 -1 -1) (polk 1 -1 1 -1 1 -1 1 -1 1 -1) (jackson 1 0 1 0 1 0 1 0 1 0) (taft 0 -1 0 -1 0 -1 0 -1 0 -1) (ford 1 1 1 1 0 0 0 0 0 0) (madison 0 0 0 1 -1 0 0 -1 1 1))
+> (best_candidates (return  _VoteL) (return  rn_allCands))
+(adams ford madison)
+> (voter)
+(-1 -1 -1 -1 -1 1 1 1 1 1)
+> (candidates)
+((wilson -1 -1 -1 -1 -1 -1 -1 -1 -1 -1) (taylor -1 -1 -1 1 1 1 1 1 1 1) (monroe -1 -1 -1 1 1 -1 -1 1 1 1))
+> best_candidates               (best_candidates (c voter) (candidates))
+(taylor)
+> (best_candidates (1 1 1 1 1) ((jim -1 -1 -1 -1 -1) (bill -1 -1 -1 -1 0) (tom -1 -1 -1 1 0)))
+
+warning: non-procedure in operator position [type-check]
+         (1 1 1 1 1)
+         (procedure: #{type :exact-integer #f #f})
+
+assertion-violation: attempt to call a non-procedure [call]
+                     (1 '(1 1 1 1))
+1> ( ,exit
+]0;crinitem0@elvix2:~/Programming[crinitem0@elvix2 ~/Programming]$ scheme48
+Welcome to Scheme 48 1.9.2 (made by root on 2016-08-30)
+See http://s48.org/ for more information.
+Please report bugs to scheme-48-bugs@s48.org.
+Get more information at http://www.s48.org/.
+Type ,? (comma question-mark) for help.
+> (b  ,loadS  SchemeAssignment
+> (best_candidates ( '(1 1 1 1 1) ((  '((jim -1 -1 -1 -1 -1) (bill -1 -1 -1 -1 0) (tom -1 -1 -1 1 0)))
+(tom)
+> 
+Exit Scheme 48 (y/n)? y
+]0;crinitem0@elvix2:~/Programming[crinitem0@elvix2 ~/Programming]$ ^Dexit
+
+Script done on Tue 27 Sep 2016 11:06:55 AM EDT
