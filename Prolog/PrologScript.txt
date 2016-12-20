@@ -1,0 +1,38 @@
+Script started on Thu 10 Nov 2016 02:56:12 PM EST
+]0;crinitem0@elvix2:Prolog[crinitem0@elvix2 Prolog]$ exitvi PrologAssignment.pl[28Gcd Prolog[K[32GL[Krogramming[28Gls[Kcd Programming[32GL[Krolog[28Gvi PrologAssignment.pl[28Gexit[K[Kexitvi PrologAssignment.pl[28Gcd Prolog[K[32GL[Krogramming[28Gls[Kswipl -s PrologAssignment.pl[33G[K -s PrologAssignment.pl
+Welcome to SWI-Prolog (Multi-threaded, 64 bits, Version 7.2.3)
+Copyright (c) 1990-2015 University of Amsterdam, VU Amsterdam
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software,
+and you are welcome to redistribute it under certain conditions.
+Please visit http://www.swi-prolog.org for details.
+
+For help, use ?- help(Topic). or ?- apropos(Word).
+
+?- voter(N).[1P).[2P.[C[C[Cbest_candidates(voter, cands, BestMatches).[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[0,0,0,1,1,1,-1,-1,-1,1],
+|    [[adams,1,1,1,1,1,1,1,1,1,1],
+|    [[K [K[grant,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+|    [pok[Klk,1,-1,1,-1,1,-1,1,-1,1,1[K-1],
+|    [jackson,1,0,1,0,1,0,1,0,1,0],
+|    [taft,0,-1,0,-1,0,-1,0,-1,0,-1],
+|    [ford,1,1,1,1,0,0,0,0,0,0],
+|    [madison,0,0,0,1,-1,0,0,-1,1,1]],
+|    BestMathces[K[K[K[Kches).
+BestMatches = madison [1m.[0m
+
+?- best_candidates([0,0,0,1,1,1,-1,-1,-1,1],
+[[adams,1,1,1,1,1,1,1,1,1,1],
+[grant,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+[polk,1,-1,1,-1,1,-1,1,-1,1,-1],
+[jackson,1,0,1,0,1,0,1,0,1,0],
+[taft,0,-1,0,-1,0,-1,0,-1,0,-1],
+[ford,1,1,1,1,0,0,0,0,0,0],
+[madison,0,0,0,1,-1,0,0,-1,1,1]],
+BestMatches).
+BestMatches = madison [1m;[0m
+[1;31mfalse.[0m
+
+?- 
+[32m% halt
+[0m]0;crinitem0@elvix2:Prolog[crinitem0@elvix2 Prolog]$ ^Dexit
+
+Script done on Thu 10 Nov 2016 02:59:36 PM EST
